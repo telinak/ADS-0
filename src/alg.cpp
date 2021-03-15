@@ -4,5 +4,5 @@ int gcd(int a, int b) {
     if (a > b) {a -= b;}
     else
       b -= a; }
-  return a;
+  return b;
 }
